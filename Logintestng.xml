@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="generic.TestNgListeners"></listener>
+		<!-- add a listener to connect testNG file with listener and run listener 
+			for all the methods -->
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="Scripts.TestLogin" />
+			<class name="Scripts.TestInvalidLogin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
